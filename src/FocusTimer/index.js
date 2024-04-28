@@ -9,4 +9,5 @@ export function play(minutes, seconds) {
   timer.updateDisplay()
 
   events.registerControls()
+  events.setMinutes()
 }
